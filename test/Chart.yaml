@@ -1,0 +1,10 @@
+piVersion: v2
+name: test
+description: The parent chart that Argo CD deploys
+type: application
+version: 0.1.0
+dependencies:
+  - name: common
+    version: 0.1.0
+    # Your actual ChartMuseum Route
+    repository: https://chartmuseum-openshift-gitops.apps.rosa.z2tep-j86gv-bhi.th1u.p3.openshiftapps.com
