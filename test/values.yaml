@@ -1,0 +1,5 @@
+common:
+  commonMessage: "The parent chart successfully overrode this private dependency value!"
+
+# A value native to this parent chart
+parentMessage: "This is the parent chart deployed via GitOps."
