@@ -7,4 +7,4 @@ dependencies:
   - name: common
     version: 0.1.0
     # Your actual ChartMuseum Route
-    repository: quay.io/mangaal/common
+    repository: oci://quay.io/mangaal
